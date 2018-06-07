@@ -1,0 +1,69 @@
+Valida Cartão
+
+Cria uma janela, na qual o usuário insere o número do cartão e retorna se o número do cartão é válido, utilizando o algoritmo.
+
+![Fluxograma Card](FinalCard/Card/Card.jpeg)
+
+
+
+Pseudocódigo
+Cria uma váriavel que armazene o número do cartão;
+
+Cria um laço de repetição para o processo de digitação do número do cartão{
+
+	A entrada de dados é através de um prompt;
+	se o campo estiver vazio {
+		é gerada uma janela de alert;
+	}
+}; até a inserção dos dados corretamente
+
+Cria uma função isValidCard que valida a palavra digitado{
+	Cria uma variável para armazenar a soma dos valores dos índices pares do array;
+	Cria uma variável para armazenar a soma dos valores dos índices ímpares; do array;
+	Cria uma variável para armazenar a soma total dos valores dos índices pares do array;;
+	Cria uma variável para armazenar o resultado a aplicação inicial da fórmula;
+	Cria uma variável para armazenar o resultado da aplicação da fórmula, após inserção de nova condição;
+	Cria uma váriavel array para armazenar os valores de índice par;
+	Cria uma váriavel array para armazenar os valores de índice ímpar;
+	Cria uma váriavel array para armazenar todos os valores;
+
+	Aplica o método para separar a string; com o uso da função,converte para número inteiro e aplica o metódo para inverter a ordem do array;
+	Para o array{
+	 com o uso da função,converte para número inteiro} 
+	}
+	{
+		Aplica o método para inverter a ordem do array;
+	}
+
+	Para o array inverso, percorro o array a partir do índice 0, considera os números que estejam nas posições ímpares{
+		Se os números ocupam as posições ímpares{
+			efetua a operação de multiplicar os mesmo por dois e armazeno em em uma variável de tipo array}
+      		Se o número armazenado na variável for maior que 9{
+				subtraio 9 e armazeno em em uma  variável de tipo array}
+				pairNumberCard.push(form2);
+			} senão {
+				armazena em uma variável de tipo array{
+			}
+		} senão {
+			armazena em uma variável de tipo array;
+		}
+	}
+
+	Para a variável que contém os números de índice par {
+		efetua a soma dos números armazenados};
+	}
+	Para a variável que contém os números de índice ímpar{
+		efetua a soma dos números armazenados
+	}
+
+	A soma total será a soma dos valores contidos nas duas variáveis;
+	Se o módulo da divisão por 10 for igual a 0 ou a soma for diferente de 0 {
+		é gerada uma janela de alerta, informando que o cartão é válido;
+		a função retorna true;
+	} Senão {
+		é gerada uma janela de alerta, informando que o cartão é inválido;
+	}
+	a função retorna false;
+}
+
+
